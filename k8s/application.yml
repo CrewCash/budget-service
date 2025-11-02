@@ -1,0 +1,9 @@
+spring:
+  rabbitmq:
+    host: payment-rabbitmq
+
+app:
+  rabbit:
+    queue: budget-queue
+    exchange: payment.exchange
+    exchange-type: fanout
